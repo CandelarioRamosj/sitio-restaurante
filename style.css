@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  border-color: black;
+  border-style: solid;
+}
+
+.nav-link {
+  color: black;
+}
+
+.welcome {
+  background-color: cadetblue;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 50vw;
+  width: 90%;
+}
