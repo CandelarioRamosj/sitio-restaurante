@@ -16,17 +16,17 @@
   <title>Antojitos Candy - Restaurante</title>
 </head>
 <body>
-  <header class="center">
+  <header class="center" id="inicio">
     <h1>Antojitos Candy</h1>
     <h4>Restaurante Mexicano</h4>
   </header>
   <main>
     <!--Navegador-->
     <nav class="nav justify-content-center">
-      <a class="nav-link" href="#">Inicio</a>
-      <a class="nav-link" href="#">Menu</a>
-      <a class="nav-link" href="#">Ubicación</a>
-      <a class="nav-link" href="#">Acerca de</a>
+      <a class="nav-link" href="#inicio">Inicio</a>
+      <a class="nav-link" href="#acerca_de">Acerca de</a>
+      <a class="nav-link" href="#menu">Menu</a>
+      <a class="nav-link" href="#contacto">Contacto</a>
     </nav>
     <!--Fin navegador-->
     <!--Mensaje de bienvenida-->
@@ -34,8 +34,86 @@
       <h2>Bienvenido a Antojitos Candy</h2>
     </div>
     <!--Fin mensaje de bienvenida-->
+    <!--Acerca de-->
+    <div id="acerca_de">
+      <h2>¿Quienes somos?</h2>
+    </div>
+    <!--Fin acerca de-->
+    <!--Menu-->
+    <div id="menu">
+      <h2>Productos destacados</h2>
+      <!--Tarjetas-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/panuchos.jpg" class="card-img-top" alt="panuchos">
+            <div class="card-body">
+              <h5 class="card-title">Panuchos</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                <a href="">Más información...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/salbutes.jpg" class="card-img-top" alt="salbutes">
+            <div class="card-body">
+              <h5 class="card-title">Salbutes</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                <a href="">Más información...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/empanadas.jpg" class="card-img-top" alt="empanadas">
+            <div class="card-body">
+              <h5 class="card-title">Empanadas</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
+                <a href="">Más información...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/tostadas.jpg" class="card-img-top" alt="tostadas">
+            <div class="card-body">
+              <h5 class="card-title">Tostadas</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                <a href="">Más información...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Fin tarjetas-->
+    </div>
+    <!--Fin menu-->
+    <!--Contacto-->
+    <div id="contacto">
+      <h2>Contactanos</h2>
+      <form action="">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="name">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </form>
+    </div>
+    <!--Fin contacto-->
   </main>
   <footer>
+    <p>©copyright 2023. Derechos reservados</p>
     <small><a target="_blank" href="https://icons8.com/icon/fi13Bm5Mwtgm/empanadas">Empanadas</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></small>
   </footer>
   <!--Bootstrapt-->
