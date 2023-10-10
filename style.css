@@ -19,6 +19,7 @@ body {
   font-family: 'Didact Gothic', sans-serif;
 }
 
+/*Barra de navegacion*/
 nav > div > a > h1 {
   font-size: 2.4vw;
   color: white;
@@ -57,7 +58,9 @@ nav > div > a > h4 {
 .navegation {
   scroll-margin-top: 7.5vw;
 }
+/*FIN barra de navegacion"*/
 
+/*Seccion "inicio"*/
 #inicio {
   background-image: url('img/empanadas.png');
   background-repeat: no-repeat;
@@ -74,7 +77,9 @@ nav > div > a > h4 {
   font-size: 3.5vw;
   font-weight: bold;
 }
+/*FIN Seccion "inicio"*/
 
+/*Seccion "nosotros"*/
 #nosotros {
   background-color: #bd5d1d;
   height: 30vw;
@@ -103,9 +108,33 @@ nav > div > a > h4 {
 .texto {
   font-size: 1.5vw;
 }
+/*FIN Seccion "nosotros"*/
+
+/*Seccion "menu"*/
+#menu {
+  padding: 5vw;
+}
+
+#menu-message {
+  font-weight: bold;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  color: #f7541e;
+}
+
+.card {
+  background-color: #f7541e;
+  color: white;
+}
+
+.list-group-item {
+  background-color: #f7541e;
+  border-color: #f7541e;
+  color: white;
+}
 
 .card-img-top {
   height: 15vw;
   
 }
-
+/*FIN Seccion "menu"*/
