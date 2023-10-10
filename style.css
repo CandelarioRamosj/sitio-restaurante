@@ -7,10 +7,23 @@ body {
   background-color: #ffd41f;
 }
 
+.font-young {
+  font-family: 'Young Serif', serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-didact {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
 nav > div > a > h1 {
   font-size: 2.4vw;
   color: white;
 }
+
 nav > div > a > h4 {
   font-size: 1.2vw;
   color: white;
@@ -45,16 +58,21 @@ nav > div > a > h4 {
   scroll-margin-top: 7.5vw;
 }
 
-.welcome {
+#inicio {
   background-image: url('img/empanadas.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #ffffff;
-  height: 30vw;
+  height: 35vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#welcome-message{
+  font-size: 3.5vw;
+  font-weight: bold;
 }
 
 .card-img-top {
@@ -62,14 +80,3 @@ nav > div > a > h4 {
   
 }
 
-.font-young {
-  font-family: 'Young Serif', serif;
-}
-
-.font-poppins {
-  font-family: 'Poppins', sans-serif;
-}
-
-.font-didact {
-  font-family: 'Didact Gothic', sans-serif;
-}
