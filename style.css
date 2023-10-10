@@ -75,6 +75,35 @@ nav > div > a > h4 {
   font-weight: bold;
 }
 
+#nosotros {
+  background-color: #bd5d1d;
+  height: 30vw;
+  display: flex;
+  align-items: center;
+}
+
+.center-nosotros {
+  width: 45%;
+  text-align: center;
+  color: white;
+}
+
+#img-cocina {
+  height: 25vw;
+  width: 30vw;
+  border-radius: 2%;
+  box-shadow: 5px 5px 15px black;
+}
+
+.titulos {
+  font-size: 4vw;
+  margin-bottom: 3vw;
+}
+
+.texto {
+  font-size: 1.5vw;
+}
+
 .card-img-top {
   height: 15vw;
   
