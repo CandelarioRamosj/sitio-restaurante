@@ -3,23 +3,44 @@
   padding: 0;
 }
 
-header {
-  background-color: black;
-  color: white;
+body {
+  background-color: #ffd41f;
+}
+
+nav > div > a > h1 {
+  font-size: 2.4vw;
+}
+nav > div > a > h4 {
+  font-size: 1.2vw;
+}
+
+#contenedor-nombre {
   display: grid;
   place-items: center;
 }
 
+.navbar {
+  padding-left: 5vw;
+  background-color: #fc6e3d;
+  box-shadow: 0 0.1vw 1vw rgba(0, 0, 0, 0.438);
+}
+
 .nav-link {
-  color: black;
+  font-weight: bold;
+  font-size: 1.5vw ;
+  color: red;
+}
+
+.nav-link:hover {
+  color: rgb(255, 115, 0);
 }
 
 .welcome {
-  background-image: url('img/empanadas.jpg');
+  background-image: url('img/empanadas.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: cadetblue;
-  color: white;
+  background-position: center;
+  font-weight: bold;
+  color: #fc6e3d;
   height: 30vw;
   display: flex;
   justify-content: center;
@@ -29,4 +50,16 @@ header {
 .card-img-top {
   height: 15vw;
   
+}
+
+.font-young {
+  font-family: 'Young Serif', serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-didact {
+  font-family: 'Didact Gothic', sans-serif;
 }
