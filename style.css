@@ -115,7 +115,7 @@ nav > div > a > h4 {
   padding: 5vw;
 }
 
-#menu-message {
+.message-tema {
   font-weight: bold;
   font-size: 3vw;
   margin-bottom: 2vw;
@@ -138,3 +138,48 @@ nav > div > a > h4 {
   
 }
 /*FIN Seccion "menu"*/
+
+/*Seccion "contacto"*/
+#contacto {
+  padding: 5vw;
+  background-color: #f7541e;
+}
+
+form {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  background-color: #ffd41f;
+  border-radius: 2%;
+  padding: 3vw 3vw 5vw 3vw;
+}
+
+#div-button {
+  margin-top: 2.5vw;
+}
+
+#button-clear {
+  background-color: #f7541e;
+  border: none;
+}
+
+#button-clear:hover {
+  background-color: #d6491a;
+}
+
+#button-clear:active {
+  background-color: #f7541e;
+}
+
+#button-send {
+  background-color: #f7541e;
+  border: none;
+}
+
+select {
+  margin-top: 1vw;
+}
+
+form > label {
+  font-size: 1.5vw;
+}
+/*FIN Seccion "contacto"*/

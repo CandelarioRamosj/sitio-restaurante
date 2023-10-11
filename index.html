@@ -69,7 +69,7 @@
     <!--Fin acerca de-->
     <!--Menu-->
     <div id="menu" class="navegation">
-      <h2 class="font-poppins" id="menu-message">Productos destacados</h2>
+      <h2 class="font-poppins message-tema">Productos destacados</h2>
       <!--Tarjetas-->
       <div class="row row-cols-1 row-cols-md-3 g-4 font-didact">
         <div class="col">
@@ -138,20 +138,26 @@
     <!--Fin menu-->
     <!--Contacto-->
     <div id="contacto" class="navegation">
-      <h2 class="font-poppins">Contactanos</h2>
+      <h2 class="font-poppins message-tema" style="color:#ffd41f;">Contactanos</h2>
       <form action="" class="font-didact">
-        <select class="form-select" aria-label="Default select example">
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+        <label for="select">Motivo</label>
+        <select class="form-select" id="select" aria-label="Default select example">
+          <option selected>Seleccione una opción</option>
+          <option value="1">Sujerencia</option>
+          <option value="2">Felicitación</option>
+          <option value="3">Queja</option>
+          <option value="3">Otra</option>
         </select>
-        <label for="name" class="form-label">Name</label>
-        <input type="text" class="form-control" name="name" id="name" placeholder="name">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <label for="name" class="form-label">Nombre</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        <label for="exampleFormControlTextarea1" class="form-label">Escriba su comentario en esta área</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="div-button">
+          <button class="btn btn-primary me-md-2" type="button" id="button-clear">Limpiar</button>
+          <button class="btn btn-primary" type="button" disabled id="button-send">Enviar</button>
+        </div>
       </form>
     </div>
     <!--Fin contacto-->
