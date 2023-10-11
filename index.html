@@ -139,10 +139,10 @@
     <!--Contacto-->
     <div id="contacto" class="navegation">
       <h2 class="font-poppins message-tema" style="color:#ffd41f;">Contactanos</h2>
-      <form action="" class="font-didact">
+      <form action="" class="font-didact" id="formulario">
         <label for="select">Motivo</label>
-        <select class="form-select" id="select" aria-label="Default select example">
-          <option selected>Seleccione una opción</option>
+        <select class="form-select" id="select" aria-label="Default select example" id="select-id">
+          <option selected value="0">Seleccione una opción</option>
           <option value="1">Sujerencia</option>
           <option value="2">Felicitación</option>
           <option value="3">Queja</option>
@@ -155,7 +155,7 @@
         <label for="exampleFormControlTextarea1" class="form-label">Escriba su comentario en esta área</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="div-button">
-          <button class="btn btn-primary me-md-2" type="button" id="button-clear">Limpiar</button>
+          <button class="btn btn-primary me-md-2" type="button" onclick="clean();" id="button-clear">Limpiar</button>
           <button class="btn btn-primary" type="button" disabled id="button-send">Enviar</button>
         </div>
       </form>
@@ -168,6 +168,7 @@
   </footer>
   <!--Bootstrapt-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
