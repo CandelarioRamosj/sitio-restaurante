@@ -183,3 +183,22 @@ form > label {
   font-size: 1.5vw;
 }
 /*FIN Seccion "contacto"*/
+
+/*Footer*/
+footer {
+  background-color: #f7541e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vw;
+}
+
+#enlace-icono {
+  margin-top: -1.5vw;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd41f;
+}
