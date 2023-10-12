@@ -3,7 +3,9 @@ function clean(){
 }
 
 function closed(){
-  const menuToggle = document.getElementById('navbarSupportedContent')
-  const bsCollapse = new bootstrap.Collapse(menuToggle)
-  bsCollapse.toggle()
+  if(screen.width <= 991.98){
+    const menuToggle = document.getElementById('navbarSupportedContent')
+    const bsCollapse = new bootstrap.Collapse(menuToggle)
+    bsCollapse.toggle()
+  }
 }
