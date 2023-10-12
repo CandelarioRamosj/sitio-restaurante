@@ -202,3 +202,820 @@ a {
   text-decoration: none;
   color: #ffd41f;
 }
+
+/*Media Query*/
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+  body {
+    background-color: #ffd41f;
+  }
+  
+  .font-young {
+    font-family: 'Young Serif', serif;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-didact {
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  
+  /*Barra de navegacion*/
+  nav > div > a > h1 {
+    font-size: 4.5vw;
+    color: white;
+  }
+  
+  nav > div > a > h4 {
+    font-size: 2.5vw;
+    color: white;
+  }
+  
+  #contenedor-nombre {
+    display: grid;
+    place-items: center;
+  }
+  
+  .navbar {
+    padding-left: 5vw;
+    background-color: #f7541e;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.438);
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 3vw ;
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-link:hover {
+    color: #ffd41f;
+  }
+  
+  .collapse {
+    padding-right: 5vw;
+  }
+  
+  .navegation {
+    scroll-margin-top: 13.5vw;
+  }
+  /*FIN barra de navegacion"*/
+  
+  /*Seccion "inicio"*/
+  #inicio {
+    background-image: url('img/empanadas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #welcome-message{
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  /*FIN Seccion "inicio"*/
+  
+  /*Seccion "nosotros"*/
+  #nosotros {
+    background-color: #bd5d1d;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .center-nosotros {
+    width: 45%;
+    text-align: center;
+    color: white;
+  }
+  
+  #img-cocina {
+    height: 25vw;
+    width: 30vw;
+    border-radius: 2%;
+    box-shadow: 5px 5px 15px black;
+  }
+  
+  .titulos {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  
+  .texto {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "nosotros"*/
+  
+  /*Seccion "menu"*/
+  #menu {
+    padding: 5vw;
+  }
+  
+  .message-tema {
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    color: #f7541e;
+  }
+  
+  .card {
+    background-color: #f7541e;
+    color: white;
+  }
+  
+  .list-group-item {
+    background-color: #f7541e;
+    border-color: #f7541e;
+    color: white;
+  }
+  
+  .card-img-top {
+    height: 15vw;
+    
+  }
+  /*FIN Seccion "menu"*/
+  
+  /*Seccion "contacto"*/
+  #contacto {
+    padding: 5vw;
+    background-color: #f7541e;
+  }
+  
+  form {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #ffd41f;
+    border-radius: 2%;
+    padding: 3vw 3vw 5vw 3vw;
+  }
+  
+  #div-button {
+    margin-top: 2.5vw;
+  }
+  
+  #button-clear {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  #button-clear:hover {
+    background-color: #d6491a;
+  }
+  
+  #button-clear:active {
+    background-color: #f7541e;
+  }
+  
+  #button-send {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  select {
+    margin-top: 1vw;
+  }
+  
+  form > label {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "contacto"*/
+  
+  /*Footer*/
+  footer {
+    background-color: #f7541e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vw;
+  }
+  
+  #enlace-icono {
+    margin-top: -1.5vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffd41f;
+  }
+}
+
+/*landscape*/
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+  body {
+    background-color: #ffd41f;
+  }
+  
+  .font-young {
+    font-family: 'Young Serif', serif;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-didact {
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  
+  /*Barra de navegacion*/
+  nav > div > a > h1 {
+    font-size: 2.4vw;
+    color: white;
+  }
+  
+  nav > div > a > h4 {
+    font-size: 1.2vw;
+    color: white;
+  }
+  
+  #contenedor-nombre {
+    display: grid;
+    place-items: center;
+  }
+  
+  .navbar {
+    padding-left: 5vw;
+    background-color: #f7541e;
+    box-shadow: 0 0.1vw 1vw rgba(0, 0, 0, 0.438);
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 1.5vw ;
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-link:hover {
+    color: #ffd41f;
+  }
+  
+  .collapse {
+    padding-right: 5vw;
+  }
+  
+  .navegation {
+    scroll-margin-top: 7.5vw;
+  }
+  /*FIN barra de navegacion"*/
+  
+  /*Seccion "inicio"*/
+  #inicio {
+    background-image: url('img/empanadas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #welcome-message{
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  /*FIN Seccion "inicio"*/
+  
+  /*Seccion "nosotros"*/
+  #nosotros {
+    background-color: #bd5d1d;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .center-nosotros {
+    width: 45%;
+    text-align: center;
+    color: white;
+  }
+  
+  #img-cocina {
+    height: 25vw;
+    width: 30vw;
+    border-radius: 2%;
+    box-shadow: 5px 5px 15px black;
+  }
+  
+  .titulos {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  
+  .texto {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "nosotros"*/
+  
+  /*Seccion "menu"*/
+  #menu {
+    padding: 5vw;
+  }
+  
+  .message-tema {
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    color: #f7541e;
+  }
+  
+  .card {
+    background-color: #f7541e;
+    color: white;
+  }
+  
+  .list-group-item {
+    background-color: #f7541e;
+    border-color: #f7541e;
+    color: white;
+  }
+  
+  .card-img-top {
+    height: 15vw;
+    
+  }
+  /*FIN Seccion "menu"*/
+  
+  /*Seccion "contacto"*/
+  #contacto {
+    padding: 5vw;
+    background-color: #f7541e;
+  }
+  
+  form {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #ffd41f;
+    border-radius: 2%;
+    padding: 3vw 3vw 5vw 3vw;
+  }
+  
+  #div-button {
+    margin-top: 2.5vw;
+  }
+  
+  #button-clear {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  #button-clear:hover {
+    background-color: #d6491a;
+  }
+  
+  #button-clear:active {
+    background-color: #f7541e;
+  }
+  
+  #button-send {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  select {
+    margin-top: 1vw;
+  }
+  
+  form > label {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "contacto"*/
+  
+  /*Footer*/
+  footer {
+    background-color: #f7541e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vw;
+  }
+  
+  #enlace-icono {
+    margin-top: -1.5vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffd41f;
+  }
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+  body {
+    background-color: #ffd41f;
+  }
+  
+  .font-young {
+    font-family: 'Young Serif', serif;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-didact {
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  
+  /*Barra de navegacion*/
+  nav > div > a > h1 {
+    font-size: 2.4vw;
+    color: white;
+  }
+  
+  nav > div > a > h4 {
+    font-size: 1.2vw;
+    color: white;
+  }
+  
+  #contenedor-nombre {
+    display: grid;
+    place-items: center;
+  }
+  
+  .navbar {
+    padding-left: 5vw;
+    background-color: #f7541e;
+    box-shadow: 0 0.1vw 1vw rgba(0, 0, 0, 0.438);
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 1.5vw ;
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-link:hover {
+    color: #ffd41f;
+  }
+  
+  .collapse {
+    padding-right: 5vw;
+  }
+  
+  .navegation {
+    scroll-margin-top: 7.5vw;
+  }
+  /*FIN barra de navegacion"*/
+  
+  /*Seccion "inicio"*/
+  #inicio {
+    background-image: url('img/empanadas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #welcome-message{
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  /*FIN Seccion "inicio"*/
+  
+  /*Seccion "nosotros"*/
+  #nosotros {
+    background-color: #bd5d1d;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .center-nosotros {
+    width: 45%;
+    text-align: center;
+    color: white;
+  }
+  
+  #img-cocina {
+    height: 25vw;
+    width: 30vw;
+    border-radius: 2%;
+    box-shadow: 5px 5px 15px black;
+  }
+  
+  .titulos {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  
+  .texto {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "nosotros"*/
+  
+  /*Seccion "menu"*/
+  #menu {
+    padding: 5vw;
+  }
+  
+  .message-tema {
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    color: #f7541e;
+  }
+  
+  .card {
+    background-color: #f7541e;
+    color: white;
+  }
+  
+  .list-group-item {
+    background-color: #f7541e;
+    border-color: #f7541e;
+    color: white;
+  }
+  
+  .card-img-top {
+    height: 15vw;
+    
+  }
+  /*FIN Seccion "menu"*/
+  
+  /*Seccion "contacto"*/
+  #contacto {
+    padding: 5vw;
+    background-color: #f7541e;
+  }
+  
+  form {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #ffd41f;
+    border-radius: 2%;
+    padding: 3vw 3vw 5vw 3vw;
+  }
+  
+  #div-button {
+    margin-top: 2.5vw;
+  }
+  
+  #button-clear {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  #button-clear:hover {
+    background-color: #d6491a;
+  }
+  
+  #button-clear:active {
+    background-color: #f7541e;
+  }
+  
+  #button-send {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  select {
+    margin-top: 1vw;
+  }
+  
+  form > label {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "contacto"*/
+  
+  /*Footer*/
+  footer {
+    background-color: #f7541e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vw;
+  }
+  
+  #enlace-icono {
+    margin-top: -1.5vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffd41f;
+  }
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+  body {
+    background-color: #ffd41f;
+  }
+  
+  .font-young {
+    font-family: 'Young Serif', serif;
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-didact {
+    font-family: 'Didact Gothic', sans-serif;
+  }
+  
+  /*Barra de navegacion*/
+  nav > div > a > h1 {
+    font-size: 2.4vw;
+    color: white;
+  }
+  
+  nav > div > a > h4 {
+    font-size: 1.2vw;
+    color: white;
+  }
+  
+  #contenedor-nombre {
+    display: grid;
+    place-items: center;
+  }
+  
+  .navbar {
+    padding-left: 5vw;
+    background-color: #f7541e;
+    box-shadow: 0 0.1vw 1vw rgba(0, 0, 0, 0.438);
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 1.5vw ;
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-link:hover {
+    color: #ffd41f;
+  }
+  
+  .collapse {
+    padding-right: 5vw;
+  }
+  
+  .navegation {
+    scroll-margin-top: 7.5vw;
+  }
+  /*FIN barra de navegacion"*/
+  
+  /*Seccion "inicio"*/
+  #inicio {
+    background-image: url('img/empanadas.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #welcome-message{
+    font-size: 3.5vw;
+    font-weight: bold;
+  }
+  /*FIN Seccion "inicio"*/
+  
+  /*Seccion "nosotros"*/
+  #nosotros {
+    background-color: #bd5d1d;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .center-nosotros {
+    width: 45%;
+    text-align: center;
+    color: white;
+  }
+  
+  #img-cocina {
+    height: 25vw;
+    width: 30vw;
+    border-radius: 2%;
+    box-shadow: 5px 5px 15px black;
+  }
+  
+  .titulos {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  
+  .texto {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "nosotros"*/
+  
+  /*Seccion "menu"*/
+  #menu {
+    padding: 5vw;
+  }
+  
+  .message-tema {
+    font-weight: bold;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    color: #f7541e;
+  }
+  
+  .card {
+    background-color: #f7541e;
+    color: white;
+  }
+  
+  .list-group-item {
+    background-color: #f7541e;
+    border-color: #f7541e;
+    color: white;
+  }
+  
+  .card-img-top {
+    height: 15vw;
+    
+  }
+  /*FIN Seccion "menu"*/
+  
+  /*Seccion "contacto"*/
+  #contacto {
+    padding: 5vw;
+    background-color: #f7541e;
+  }
+  
+  form {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #ffd41f;
+    border-radius: 2%;
+    padding: 3vw 3vw 5vw 3vw;
+  }
+  
+  #div-button {
+    margin-top: 2.5vw;
+  }
+  
+  #button-clear {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  #button-clear:hover {
+    background-color: #d6491a;
+  }
+  
+  #button-clear:active {
+    background-color: #f7541e;
+  }
+  
+  #button-send {
+    background-color: #f7541e;
+    border: none;
+  }
+  
+  select {
+    margin-top: 1vw;
+  }
+  
+  form > label {
+    font-size: 1.5vw;
+  }
+  /*FIN Seccion "contacto"*/
+  
+  /*Footer*/
+  footer {
+    background-color: #f7541e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vw;
+  }
+  
+  #enlace-icono {
+    margin-top: -1.5vw;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffd41f;
+  }
+}
+/*fin movil*/
