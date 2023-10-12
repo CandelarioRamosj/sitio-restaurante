@@ -240,7 +240,6 @@ a {
   }
   
   .navbar {
-    padding-left: 5vw;
     background-color: #f7541e;
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.438);
   }
@@ -255,12 +254,8 @@ a {
     color: #ffd41f;
   }
   
-  .collapse {
-    padding-right: 5vw;
-  }
-  
   .navegation {
-    scroll-margin-top: 13.5vw;
+    scroll-margin-top: 35vw;
   }
   /*FIN barra de navegacion"*/
   
@@ -271,14 +266,14 @@ a {
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    height: 35vw;
+    height: 60vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   #welcome-message{
-    font-size: 3.5vw;
+    font-size: 5vw;
     font-weight: bold;
   }
   /*FIN Seccion "inicio"*/
@@ -286,7 +281,7 @@ a {
   /*Seccion "nosotros"*/
   #nosotros {
     background-color: #bd5d1d;
-    height: 30vw;
+    height: 50vw;
     display: flex;
     align-items: center;
   }
@@ -298,19 +293,19 @@ a {
   }
   
   #img-cocina {
-    height: 25vw;
-    width: 30vw;
+    height: 35vw;
+    width: 40vw;
     border-radius: 2%;
     box-shadow: 5px 5px 15px black;
   }
   
   .titulos {
-    font-size: 4vw;
+    font-size: 5vw;
     margin-bottom: 3vw;
   }
   
   .texto {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
   /*FIN Seccion "nosotros"*/
   
@@ -321,16 +316,26 @@ a {
   
   .message-tema {
     font-weight: bold;
-    font-size: 3vw;
-    margin-bottom: 2vw;
+    font-size: 5vw;
+    margin-bottom: 3vw;
     color: #f7541e;
   }
   
+  #card-col {
+    display: flex;
+    justify-content: center;
+  }
+
   .card {
     background-color: #f7541e;
     color: white;
+    width: 40vw;
   }
-  
+
+  .col {
+    flex: 50%;
+  }
+
   .list-group-item {
     background-color: #f7541e;
     border-color: #f7541e;
@@ -338,8 +343,19 @@ a {
   }
   
   .card-img-top {
-    height: 15vw;
-    
+    height: 25vw;
+  }
+
+  .card-title {
+    font-size: 3.5vw;
+  }
+
+  .card-text {
+    font-size: 2.5vw;
+  }
+
+  .list-group-item{
+    font-size: 2.5vw;
   }
   /*FIN Seccion "menu"*/
   
@@ -350,8 +366,8 @@ a {
   }
   
   form {
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     background-color: #ffd41f;
     border-radius: 2%;
     padding: 3vw 3vw 5vw 3vw;
@@ -384,7 +400,7 @@ a {
   }
   
   form > label {
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   /*FIN Seccion "contacto"*/
   
@@ -396,6 +412,7 @@ a {
     justify-content: center;
     flex-direction: column;
     height: 10vw;
+    font-size: 2.5vw;
   }
   
   #enlace-icono {
@@ -634,12 +651,12 @@ a {
   
   /*Barra de navegacion*/
   nav > div > a > h1 {
-    font-size: 2.4vw;
+    font-size: 6vw;
     color: white;
   }
   
   nav > div > a > h4 {
-    font-size: 1.2vw;
+    font-size: 4vw;
     color: white;
   }
   
@@ -649,27 +666,22 @@ a {
   }
   
   .navbar {
-    padding-left: 5vw;
     background-color: #f7541e;
     box-shadow: 0 0.1vw 1vw rgba(0, 0, 0, 0.438);
   }
   
   .nav-link {
     font-weight: bold;
-    font-size: 1.5vw ;
+    font-size: 5vw ;
     color: rgb(255, 255, 255);
   }
   
   .nav-link:hover {
     color: #ffd41f;
   }
-  
-  .collapse {
-    padding-right: 5vw;
-  }
-  
+
   .navegation {
-    scroll-margin-top: 7.5vw;
+    scroll-margin-top: 68vw;
   }
   /*FIN barra de navegacion"*/
   
@@ -680,14 +692,15 @@ a {
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    height: 35vw;
+    height: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   #welcome-message{
-    font-size: 3.5vw;
+    text-align: center;
+    font-size: 10vw;
     font-weight: bold;
   }
   /*FIN Seccion "inicio"*/
@@ -695,31 +708,31 @@ a {
   /*Seccion "nosotros"*/
   #nosotros {
     background-color: #bd5d1d;
-    height: 30vw;
+    height: 70vw;
     display: flex;
     align-items: center;
   }
   
   .center-nosotros {
-    width: 45%;
+    width: 47%;
     text-align: center;
     color: white;
   }
   
   #img-cocina {
-    height: 25vw;
-    width: 30vw;
+    height: 40vw;
+    width: 43vw;
     border-radius: 2%;
     box-shadow: 5px 5px 15px black;
   }
   
   .titulos {
-    font-size: 4vw;
+    font-size: 8vw;
     margin-bottom: 3vw;
   }
   
   .texto {
-    font-size: 1.5vw;
+    font-size: 3.5vw;
   }
   /*FIN Seccion "nosotros"*/
   
@@ -730,7 +743,7 @@ a {
   
   .message-tema {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 6.5vw;
     margin-bottom: 2vw;
     color: #f7541e;
   }
@@ -747,7 +760,7 @@ a {
   }
   
   .card-img-top {
-    height: 15vw;
+    height: 40vw;
     
   }
   /*FIN Seccion "menu"*/
@@ -759,8 +772,8 @@ a {
   }
   
   form {
-    margin-left: 15vw;
-    margin-right: 15vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
     background-color: #ffd41f;
     border-radius: 2%;
     padding: 3vw 3vw 5vw 3vw;
@@ -793,7 +806,7 @@ a {
   }
   
   form > label {
-    font-size: 1.5vw;
+    font-size: 5vw;
   }
   /*FIN Seccion "contacto"*/
   
@@ -804,7 +817,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 10vw;
+    height: 25vw;
   }
   
   #enlace-icono {
